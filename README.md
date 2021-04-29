@@ -30,3 +30,6 @@ pip install combogrid
 >>> plt.show()
 
 ```
+
+## Output
+[Sample image with a grid of combo charts](https://raw.githubusercontent.com/rahimnathwani/combogrid/main/sample.png)
