@@ -9,6 +9,16 @@ between groups.
 Perhaps you want to see how a single stock's price and volume changed day by day.
 And you are following multiple stocks, so you want one chart per stock.
 
+## Requirements
+python 3.71 or above
+pandas
+
+## Install
+```bash
+pip install combogrid
+```
+
+## Use
 ```python
 >>> import pandas as pd
 >>> import combogrid
