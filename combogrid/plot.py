@@ -12,6 +12,7 @@ def plot(
     y_line,
     y_bar,
     facet_dimension,
+    ncols=2,
     percent_cols=[],
     style="fivethirtyeight",
 ):
@@ -29,6 +30,8 @@ def plot(
         The name of the column to plot as bars
     facet_dimension : str
         The name of the column to split the data into multiple charts
+    ncols : int, optional
+        The number of columns in the grid (default is 2)
     percent_cols : list of str, optional
         The name(s) of the column(s) whose scale should be X% not 0.X (default is [])
     style : str, optional
@@ -48,7 +51,6 @@ def plot(
         return "{0:.0%}".format(x)
 
     facets = set(df[facet_dimension])
-    ncols = 2
     nrows = int(np.ceil(len(facets) / ncols))
     indices = [(row, col) for row in range(nrows) for col in range(ncols)]
     mapping = {facet: indices.pop() for facet in facets}
