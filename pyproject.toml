@@ -3,6 +3,10 @@ name = "combogrid"
 version = "0.1.0"
 description = "Draw a grid of combo charts (each with a line and bars)"
 authors = ["Rahim Nathwani <rahim@encona.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/rahimnathwani/combogrid"
+repository = "https://github.com/rahimnathwani/combogrid"
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
