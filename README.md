@@ -32,4 +32,4 @@ pip install combogrid
 ```
 
 ## Output
-[Sample image with a grid of combo charts](https://raw.githubusercontent.com/rahimnathwani/combogrid/main/sample.png)
+![Sample image with a grid of combo charts](https://raw.githubusercontent.com/rahimnathwani/combogrid/main/sample.png)
