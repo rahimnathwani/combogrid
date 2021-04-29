@@ -27,15 +27,12 @@ help(combogrid.plot)
 
 ## Use
 ```python
->>> import pandas as pd
->>> import combogrid
->>> df = pd.read_csv("sample.csv")
->>> df["date"] = pd.to_datetime(df["date"])
->>> plt = combogrid.plot(
->>>     df, "date", "volume", "price", "color"
->>> )
->>> plt.show()
-
+import pandas as pd
+import combogrid
+df = pd.read_csv("sample.csv")
+df["date"] = pd.to_datetime(df["date"])
+plt = combogrid.plot(df, "date", "volume", "price", "color")
+plt.show()
 ```
 
 ## Output
