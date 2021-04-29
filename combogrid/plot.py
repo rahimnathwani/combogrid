@@ -39,9 +39,8 @@ def plot(
 
     Example
     ------
-    NotImplementedError
-        If no sound is set for the animal or passed in as a
-        parameter.
+    plt = combogrid.plot(df, "date", "volume", "price", "color")
+    plt.show()
     """
     y1, y2 = y_line, y_bar
     plt.style.use(style)
