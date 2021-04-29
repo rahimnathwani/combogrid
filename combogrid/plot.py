@@ -49,9 +49,7 @@ def plot(
 
     facets = set(df[facet_dimension])
     ncols = 2
-    print(ncols)
     nrows = int(np.ceil(len(facets) / ncols))
-    print(nrows)
     indices = [(row, col) for row in range(nrows) for col in range(ncols)]
     mapping = {facet: indices.pop() for facet in facets}
     plt.rcParams.update({"figure.autolayout": True})
