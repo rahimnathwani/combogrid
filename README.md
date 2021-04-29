@@ -18,6 +18,13 @@ And you are following multiple stocks, so you want one chart per stock.
 pip install combogrid
 ```
 
+## Help
+```python
+import combogrid
+help(combogrid.plot)
+```
+
+
 ## Use
 ```python
 >>> import pandas as pd
